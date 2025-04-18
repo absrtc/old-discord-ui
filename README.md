@@ -1,3 +1,5 @@
+# ⚠️ THIS IS NOT THE ACTUAL OLD DISCORD UI, RATHER A SIMILAR REPRESENTATION. ⚠️
+
 # Old Discord UI
 basically, this is a somewhat representation of the old discord UI.
 
