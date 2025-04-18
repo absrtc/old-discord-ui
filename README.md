@@ -22,10 +22,15 @@ None of the CSS Above is made by me, all credits are below.
 
 
 Server List - Scabau (scattagain)
+
 User Area - evie (evie.flowers)
+
 Remove Server List Cover - Obsidian (obsidianninja11)
+
 Compact Frame - Chloe (chloecinders)
+
 Timestamp - krekevyks1337
+
 Nameplates - pointy
 
 If your credits are not here, please contact me on Discord (@absst).
