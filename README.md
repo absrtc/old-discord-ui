@@ -35,3 +35,62 @@ Timestamp - krekevyks1337
 Nameplates - pointy
 
 If your credits are not here, please contact me on Discord (@absst).
+
+## Contributions
+
+If you would like to Contribute to this repository, you can create a **Pull Request**. While editing, please make sure that:
+
+1. Keep Imports at the top of the file.
+
+Example:
+```
+:root {
+    --guildbar-avatar-size: 48px;
+    --blob-scale: 48;
+
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
+}
+
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css"); ❌
+@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css'); ❌
+```
+
+```
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css"); ✅
+@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css'); ✅
+
+:root {
+    --guildbar-avatar-size: 48px;
+    --blob-scale: 48;
+
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
+}
+```
+
+2. Commment the section you have added, and what it changes on the Application.
+Example:
+```
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+```
+
+```
+
+/* Adds detail back to Message Timestamps */ ✅
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
+}
+```
